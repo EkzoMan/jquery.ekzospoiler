@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Spoiler demo page</title>
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jquery.ekzo.spoiler.js"></script>
+	<link href="css/jquery.ekzo.spoiler.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+		});
+		
+		function createSpoiler(){
+			$('.spoiler').Spoiler({animationTimeout:1000});
+		}
+		
+		function deleteSpoiler(){
+			$('.spoiler').Spoiler("destroy");
+		}
+	</script>
+</head>
+<body>
+<a href="#" onclick="createSpoiler()">Создать споийлеры</a>
+<a href="#" onclick="deleteSpoiler()">Удалить споийлеры</a>
+	<h4>Spoiler test</h4>
+	<div class="spoiler">
+		Spoiler text
+	</div>
+	
+	<div class="spoiler">
+		Spoiler text
+	</div>
+
+</body>
+</html>

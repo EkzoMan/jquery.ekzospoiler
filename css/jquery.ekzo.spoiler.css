@@ -1,0 +1,29 @@
+﻿.spoilerControl{
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: bold;
+    height: 20px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    width: 100%;
+}
+
+.plus{
+	background: url("images/plus.gif") no-repeat scroll 10px 4px #F0F0F0;
+}
+
+.minus{
+	background: url("images/minus.gif") no-repeat scroll 10px 4px #F0F0F0;
+}
+
+.spoilerContainer{
+    border:1px solid #BBB;
+    overflow:hidden;
+	margin-bottom: 5px;
+}
+
+.ekzospoiler-icon{
+    margin-left:10px;
+    margin-right:5px;
+    margin-bottom:4px;
+}
